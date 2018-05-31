@@ -1,0 +1,185 @@
+@import './base.less';
+
+@import './adapter.less';
+
+@import './fonts.less';
+
+
+.wrapper{
+    .items{
+        padding: 0 24/32rem;
+        .title{
+            font-size: 28/32rem;
+            margin: 24/32rem 0 30/32rem;
+            overflow: hidden;
+            h3{
+                float: left;
+            }
+            span{
+                color: #888;
+                float: right;
+            }
+        }
+        .item{
+            margin-bottom: 32/32rem;
+            overflow: hidden;
+            &:not(.add){
+                border-radius: 10/32rem;
+            }
+            .body{
+                position: relative;
+                overflow: hidden;
+                height: 244/32rem;
+                .logo{
+                    position: absolute;
+                    border-radius: 50%;
+                    width: 125/32rem;
+                    height: 125/32rem;
+                    border: 5px solid #66c383;
+                    color: #66c383;
+                    text-align: center;
+                    line-height: 125/32rem;
+                    top: -7/32rem;
+                    right: -7/32rem;
+                    font-size: 53/32rem;
+                    transform: rotateZ(-45deg);
+                }
+                .logo1{
+                    color: #b282c3;
+                    border: 5px solid #b282c3;
+                }
+                .top{
+                     margin: 36/32rem 0 12/32rem  24/32rem;
+                     font-size: 45/32rem;
+                     color: white;
+                     font-weight: 400;
+                }
+                .top1{
+                    margin: 0/32rem 0 60/32rem  24/32rem;
+                    color: white;
+                    p{
+                        margin: 0;
+                    }
+                    .one{
+                        display: inline-block;
+                        font-size: 32/32rem;
+                    }
+                    .two{
+                        height: 75/32rem;
+                        padding-top: 5/32rem;
+                        display: inline-block;
+                        font-size: 75/32rem;
+                    }
+                    span{
+                        color: #eac7f7;
+                        font-size: 27/32rem;
+                    }
+                }
+                .daaa{
+                    margin: 0;
+                    margin-left:24/32rem;
+                    font-size:22/32rem;
+                    color:#bdf3ce;
+                }
+                .daaa1{
+                    color: white;
+                    font-size:20/32rem;
+                }
+                .bottom{
+                    margin-bottom:45/32rem;
+                    color: white;
+                    span::before{
+                        color: white;
+                        font-size: 22/32rem;
+                        margin-right: 14/32rem;
+                    }
+                    
+                    span{
+                        margin-left:24/32rem;
+                        margin-top: 30/32rem;
+                        display: inline-block;
+                        float: left;
+                        p{
+                        display: inline-block;
+                        font-size: 18/32rem; 
+                        }
+                    }
+                    .time{
+                        margin-top: 0/32rem;
+                    }
+                    a{  display: block;
+                        text-align: center;
+                        height: 32/32rem;
+                        width: 95/32rem;
+                        margin: 45/32rem 25/32rem 0 0;
+                        font-size: 21/32rem;
+                        line-height: 32/32rem;
+                        background-color: #2a603b;
+                        color: #8fc5a0;
+                        float: right;
+                        border-radius:5/32rem ;
+                    }
+                    .one{
+                        margin: 10/32rem 25/32rem 0 0;
+                        background-color: #6a4279;
+                        color: white;
+                    }
+                }
+                
+            }
+            //公共
+            .action{
+                height: 80/32rem;
+                padding: 18/32rem 0;
+                background-color: #fff;
+                box-sizing: border-box;
+                display: flex;
+                a{
+                    flex: 1;
+                    text-align: center;
+                    line-height: 44/32rem;
+                    color: #a974bc;
+                    font-size: 26/32rem;
+                    border-right: 1px solid #e8e2d9;
+                    &:last-child{
+                        border-right:none ;
+                    }
+                   span{
+                    color: #888;
+                } 
+                }
+                
+            }
+           
+        }
+         //全场优惠
+            .all{
+                .body{
+                    background-color: #55bc75;
+                }
+            }
+            //优惠券
+            .coupon{
+                .body{
+                    background-color: #a974bc;
+                }
+            }
+            //添加按钮
+            .add{
+                height: 220/32rem;
+                border: 3/32rem dashed #dedede;
+                background-color: #fff;
+                a{
+                    margin-top: 36/32rem;
+                    text-align: center;
+                    font-size: 104/32rem;
+                    color: #aeaeae;
+                }
+                span{
+                    display: block;
+                    margin-top: 14/32rem;
+                    font-size: 26/32rem;
+                }
+            }
+    }
+}
